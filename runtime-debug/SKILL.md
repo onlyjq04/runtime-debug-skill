@@ -1,6 +1,7 @@
 ---
 name: runtime-debug
-description: Cursor-style runtime debugging — instrument suspect code with log statements that stream to a local log-sink server, have the user reproduce the bug, then read the collected logs to diagnose. Use when a bug can't be diagnosed by reading code alone, when behavior differs between runs, when the user says "add logging to debug this", or when runtime state (variable values, call order, timing) is needed to find a root cause.
+description: Cursor-style runtime debugging — instrument suspect code with log statements that stream to a local log-sink server, have the user reproduce the bug, then read the collected logs to diagnose. Manual invocation only (/runtime-debug); never auto-select this skill.
+disable-model-invocation: true
 ---
 
 # Runtime Debug
